@@ -1,0 +1,61 @@
+.ball1{
+    width:10px;
+    height:10px;
+    background-color: cadetblue;
+    border-radius:50%;
+    animation:example1;
+    animation-delay:0.50s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+.ball2{
+    width:0px;
+    height:0px;
+    background-color: cadetblue;
+    border-radius:50%;
+    animation:example2;
+    animation-delay:1s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}   
+.ball3{
+    
+    background-color: cadetblue;
+    border-radius:50%;
+    animation:example3;
+    animation-delay:1.5s;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+div{
+    display: inline-block;
+   
+}
+@keyframes example1{
+    0%{width:0px;height:0px;
+    }
+    50%{width:5px;height:5px;}
+    100%{width:0px;height:0px;}
+
+}
+@keyframes example2{
+    0%{width:0px;height:0px;
+    }
+    50%{width:10px;height:10px;}
+    100%{width:0px;height:0px;}
+
+}
+@keyframes example3{
+    0%{width:0px;height:0px;
+    }
+    50%{width:15px;height:15px;}
+    100%{width:0px;height:0px;}
+
+}
+.main{
+    margin-top:330px;
+    
+    box-sizing: border-box;
+}
